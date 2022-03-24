@@ -1,0 +1,73 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0em;
+}
+
+#compra{
+  background-color: black;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  text-align: right;
+  padding-right: 6em;
+}
+
+#compra i {
+  color: white;
+}
+
+#compra span{
+  margin: 0;
+  color: yellow;
+}
+
+#header {
+  z-index: -10;
+}
+
+#logo{
+  background-color: grey;
+}
+
+#logo-description{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#logo-description img{
+  padding-left: 6em;
+}
+
+#menu{
+  position: relative;
+  text-align: center;
+  margin-right: 6em;
+  margin-left: 6em;
+  top: -1.8em;
+  background-color: white;
+}
+
+#menu ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#menu li {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+#menu p{
+margin-right: 2em;
+margin-left: 2em;
+margin-bottom: 0;
+}
+
+.ss{
+  background-color: black;
+}
