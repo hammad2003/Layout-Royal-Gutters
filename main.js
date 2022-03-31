@@ -21,3 +21,11 @@ fetch("./header.html")
     .then(data => {
       document.querySelector("footer").innerHTML = data;
     });
+
+  fetch("./footerdos.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("footerdos").innerHTML = data;
+    });
