@@ -142,15 +142,70 @@ margin-bottom: 0;
 
 
 
+#trestextos{
+  text-align: center;
+}
 
+#trestextos h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 
+#trestextos p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight:lighter;
+}
+
+#dosfotos {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: grid;
+  grid-template-columns: 0.5fr 5fr 0.5fr;
+  text-align: center;
+}
+
+#tresfotos {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#tresfotos img {
+  height: 25em;
+  width: auto;
+}
+
+#check {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#check button{
+  text-align: center;
+  height: 4em;
+  width: 14em;
+}
 
 #footer {
   background-color: #454545;
   color: lightgrey;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#footerdate{
+  display: inline-block;
+}
+
+#footerdate h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footerdate h6 {
+  margin-top: 0.25em;
+  margin-bottom: 0;
 }
 
 #footerdos {
