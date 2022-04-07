@@ -24,8 +24,6 @@ body {
   color: yellow;
 }
 
-
-
 #logo{
   background-color: #454545;
 }
@@ -52,7 +50,6 @@ menu {
   top: -2.5em;
   background-color: white;
   z-index: 5;
-
 }
 
 #menu ul{
@@ -73,8 +70,6 @@ margin-right: 2em;
 margin-left: 2em;
 margin-bottom: 0;
 }
-
-
 
 #claro{
   position: relative;
@@ -164,8 +159,6 @@ margin-bottom: 0;
 
 
 
-
-
 #trestextos{
   text-align: center;
 }
@@ -210,6 +203,46 @@ margin-bottom: 0;
   height: 4em;
   width: 14em;
 }
+
+
+
+#galleryy {
+  background-color: grey;
+  color: white;
+}
+
+#galleryy h2 {
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 4em;
+}
+
+
+#galleryy {
+  margin-top: -5.42em;
+  padding-top: 2em;
+  background-color: grey;
+  color: white;
+}
+
+#galleryy h5 {
+margin-top: 1.35em;
+margin-bottom: 0;
+margin-right: 7.15em;
+}
+
+#logo-main{
+  display: inline-block;
+}
+
+#galleryy > ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+}
+
 
 #footer {
   background-color: #454545;
